@@ -8,272 +8,296 @@
 </head>
 <body>
 <header class="app-header">
-    <div class="app-header__row">
-        <h1 class="app-header__branding">
-            <span class="app-header__title">Kilkenny Kickers</span>
-            <span class="app-header__slogan">Football Club</span>
-        </h1>
-        <nav class="app-header__nav main-nav">
-            <ul class="main-nav__list">
-                <li class="main-nav__list-item">
-                    <a href="index.html" class="main-nav__link main-nav__link--active">Home</a>
-                </li>
-                <li class="main-nav__list-item">
-                    <a href="about.html" class="main-nav__link">About</a>
-                </li>
-            </ul>
-        </nav>
+    <div class="app-container">
+        <div class="app-header__row">
+            <a class="app-header__branding" href="index.html">
+                <span class="app-header__title">Kilkenny Kickers</span>
+                <span class="app-header__slogan">Football Club</span>
+            </a>
+            <nav class="main-nav">
+                <ul class="main-nav__list">
+                    <li class="main-nav__list-item">
+                        <a href="index.html" class="main-nav__link main-nav__link--active">Home</a>
+                    </li>
+                    <li class="main-nav__list-item">
+                        <a href="about.html" class="main-nav__link">About</a>
+                    </li>
+                    <li class="main-nav__list-item">
+                        <a href="https://github.com/player64/kilkenny-kickers"
+                           rel="nofollow" target="_blank" class="main-nav__link">
+                            <img src="assets/icons/github.svg" alt="GitHub" class="main-nav__item-ico">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </header>
 <main class="app-main">
     <section class="intro">
         <img src="assets/images/main-img-resized.jpeg" alt="Kilkenny Kickers" class="intro__img">
-        <h2 class="intro__desc">Pushers tickets available</h2>
-        <p>Don't miss the opportunity</p>
-        <a href="#" class="brand-btn">Buy now</a>
-    </section>
-
-    <section class="results">
-        <h2 class="section-title results__title">Recent Results</h2>
-
-        <div class="app-row">
-            <div class="app-col">
-                <article class="result">
-                    <table class="result__table">
-                        <tr>
-                            <th class="result__title">Limerick Strikers</th>
-                            <th class="result__title">-</th>
-                            <th class="result__title">Kilkenny Kickers</th>
-                        </tr>
-                        <tr>
-                            <th class="result__title">3</th>
-                            <th class="result__title">:</th>
-                            <th class="result__title">2</th>
-                        </tr>
-                        <tr>
-                            <td class="result__desc">
-                                David Smith (15')<br>
-                                Seamus Johnson (28')<br>
-                                Michael Anderson (81')
-                            </td>
-                            <td></td>
-                            <td class="result__desc">
-                                Richard Roberts (5')<br>
-                                James Miller (72')
-                            </td>
-                        </tr>
-                    </table>
-                </article>
-            </div>
-            <div class="app-col">
-                <article class="result">
-                    <table class="result__table">
-                        <tr>
-                            <th class="result__title">Kilkenny Kickers</th>
-                            <th class="result__title">-</th>
-                            <th class="result__title">Aces Donegal</th>
-                        </tr>
-                        <tr>
-                            <th class="result__title">2</th>
-                            <th class="result__title">:</th>
-                            <th class="result__title">0</th>
-                        </tr>
-                        <tr>
-                            <td class="result__desc">
-                                Robert White (19')<br>
-                                Richard Roberts (66')
-                            </td>
-                            <td></td>
-                            <td class="result__desc"></td>
-                        </tr>
-                    </table>
-                </article>
-
-            </div>
-            <div class="app-col">
-                <article class="result">
-                    <table class="result__table">
-                        <tr>
-                            <th class="result__title">Cork Fireballs</th>
-                            <th class="result__title">-</th>
-                            <th class="result__title">Kilkenny Kickers</th>
-                        </tr>
-                        <tr>
-                            <th class="result__title">1</th>
-                            <th class="result__title">:</th>
-                            <th class="result__title">1</th>
-                        </tr>
-                        <tr>
-                            <td class="result__desc">
-                                John Davis (61')
-                            </td>
-                            <td></td>
-                            <td class="result__desc">
-                                Liam Wilson (75')
-                            </td>
-                        </tr>
-                    </table>
-                </article>
+        <div class="intro__inner">
+            <div class="app-container">
+                <h2 class="intro__title">Dublin Pushers tickets available</h2>
+                <p class="intro__desc">Don't miss the opportunity to spend a great time</p>
+                <a href="#" class="app-btn">Buy now</a>
             </div>
         </div>
     </section>
 
-    <section class="news">
-        <h2 class="section-title news__title">Recent news</h2>
-        <div class="app-row">
-            <div class="app-col">
-                <article class="article">
-                    <figure class="article__img-wrapper">
-                        <img src="assets/images/news-1.jpeg"
-                             alt="Kilkenny Kickers FC Launches Youth Development Program">
-                    </figure>
-                    <div class="article__inner">
-                        <h3 class="article__title">Kilkenny Kickers FC Launches Youth Development Program</h3>
-                        <p class="article__desc">Kilkenny Kickers Football Club has taken a significant step towards
-                            nurturing
-                            young football talent with the launch of their Youth Development Program. The program aims
-                            to
-                            identify and train promising young players from the local community, providing them with
-                            access
-                            to top-notch coaching and facilities. This initiative reflects the club's commitment to
-                            fostering the next generation of football stars in Kilkenny.</p>
-                    </div>
-                </article>
-            </div>
+    <section class="app-section results">
+        <div class="app-container">
+            <h2 class="section-title results__title">Recent Results</h2>
+            <div class="app-row">
+                <div class="app-col">
+                    <article class="result">
+                        <table class="result__table">
+                            <tr>
+                                <th class="result__title">Limerick Strikers</th>
+                                <th class="result__title">-</th>
+                                <th class="result__title result__team">Kilkenny Kickers</th>
+                            </tr>
+                            <tr>
+                                <th class="result__title">3</th>
+                                <th class="result__title">:</th>
+                                <th class="result__title result__team">2</th>
+                            </tr>
+                            <tr>
+                                <td class="result__desc">
+                                    David Smith (15')<br>
+                                    Seamus Johnson (28')<br>
+                                    Michael Anderson (81')
+                                </td>
+                                <td></td>
+                                <td class="result__desc result__team">
+                                    Richard Roberts (5')<br>
+                                    James Miller (72')
+                                </td>
+                            </tr>
+                        </table>
+                    </article>
+                </div>
+                <div class="app-col">
+                    <article class="result">
+                        <table class="result__table">
+                            <tr>
+                                <th class="result__title result__team">Kilkenny Kickers</th>
+                                <th class="result__title">-</th>
+                                <th class="result__title">Aces Donegal</th>
+                            </tr>
+                            <tr>
+                                <th class="result__title result__team">2</th>
+                                <th class="result__title">:</th>
+                                <th class="result__title">0</th>
+                            </tr>
+                            <tr>
+                                <td class="result__desc result__team">
+                                    Robert White (19')<br>
+                                    Richard Roberts (66')
+                                </td>
+                                <td></td>
+                                <td class="result__desc"></td>
+                            </tr>
+                        </table>
+                    </article>
 
-            <div class="app-col">
-                <article class="article">
-                    <figure class="article__img-wrapper">
-                        <img src="assets/images/news-2.jpeg" alt="Kilkenny Kickers FC Wins Regional Championship">
-                    </figure>
-                    <div class="article__inner">
-                        <h3 class="article__title">Kilkenny Kickers FC Wins Regional Championship</h3>
-                        <p class="article__desc">Kilkenny Kickers Football Club celebrated a historic victory
-                            by clinching the Regional Championship title in a thrilling final match. The team's
-                            exceptional
-                            performance throughout the tournament showcased their dedication and skill on the field.
-                            Fans
-                            and club members are rejoicing in this well-deserved triumph, and hopes are high as they
-                            prepare
-                            for upcoming national competitions.</p>
-                    </div>
-                </article>
-            </div>
-            <div class="app-col">
-                <article class="article">
-                    <figure class="article__img-wrapper">
-                        <img src="assets/images/news-3.jpeg"
-                             alt="Kilkenny Kickers FC Launches Community Outreach Program">
-                    </figure>
-                    <div class="article__inner">
-                        <h3 class="article__title">Kilkenny Kickers FC Launches Community Outreach Program</h3>
-                        <p class="article__desc">In an effort to strengthen their ties with the local community,
-                            Kilkenny
-                            Kickers Football Club has unveiled a new Community Outreach Program. This initiative
-                            includes
-                            various projects aimed at giving back to the community, such as football clinics for
-                            underprivileged youth and partnerships with local schools. The club believes in using the
-                            power
-                            of football to promote unity and positive change within Kilkenny.</p>
-                    </div>
-                </article>
+                </div>
+                <div class="app-col">
+                    <article class="result">
+                        <table class="result__table">
+                            <tr>
+                                <th class="result__title">Cork Fireballs</th>
+                                <th class="result__title">-</th>
+                                <th class="result__title result__team">Kilkenny Kickers</th>
+                            </tr>
+                            <tr>
+                                <th class="result__title">1</th>
+                                <th class="result__title">:</th>
+                                <th class="result__title result__team">1</th>
+                            </tr>
+                            <tr>
+                                <td class="result__desc">
+                                    John Davis (61')
+                                </td>
+                                <td></td>
+                                <td class="result__desc result__team">
+                                    Liam Wilson (75')
+                                </td>
+                            </tr>
+                        </table>
+                    </article>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="about">
-        <h2 class="section-title about__title">Club Management</h2>
-        <p class="about__desc">
-            These dedicated individuals, Sarah O'Donnell, James Murphy, and Emma Fitzgerald, work tirelessly behind the
-            scenes to ensure the success and growth of Kilkenny Kickers Football Club, both on and off the pitch.
-        </p>
+    <section class="app-section news">
+        <div class="app-container">
+            <h2 class="section-title news__title">Recent News</h2>
+            <div class="app-row">
+                <div class="app-col">
+                    <article class="article">
+                        <figure class="article__img-wrapper">
+                            <img src="assets/images/news-1.jpeg"
+                                 alt="Kilkenny Kickers FC Launches Youth Development Program">
+                        </figure>
+                        <div class="article__inner">
+                            <h3 class="article__title">Kilkenny Kickers FC Launches Youth Development Program</h3>
+                            <p class="article__desc">Kilkenny Kickers Football Club has taken a significant step towards
+                                nurturing
+                                young football talent with the launch of their Youth Development Program. The program
+                                aims
+                                to
+                                identify and train promising young players from the local community, providing them with
+                                access
+                                to top-notch coaching and facilities. This initiative reflects the club's commitment to
+                                fostering the next generation of football stars in Kilkenny.</p>
+                        </div>
+                    </article>
+                </div>
 
-        <div class="app-row about__row">
-            <div class="app-col">
-                <article class="person">
-                    <img src="assets/images/chairperson.png" class="person__img" alt="Sarah O'Donnell">
-                    <div class="person__inner">
-                        <h3 class="person__name">Sarah O'Donnell</h3>
-                        <h5 class="person__position">Chairperson</h5>
-                        <p class="person__bio">Sarah O'Donnell is the driving force behind Kilkenny Kickers Football
-                            Club.
-                            With an unwavering passion for the beautiful game, she took on the role of Chairperson to
-                            lead
-                            the
-                            club to new heights. Sarah brings a wealth of experience to the table, having played
-                            football
-                            competitively for over a decade before transitioning to a leadership role.
-                            <br><br>
-                            Off the field, Sarah is a dedicated advocate for youth development in sports. She firmly
-                            believes that football is more than just a game; it's a tool for personal growth and
-                            community
-                            building. Under her guidance, the Kilkenny Kickers Football Club has become a place where
-                            aspiring
-                            players not only sharpen their skills but also learn valuable life lessons.</p>
-                    </div>
-                </article>
+                <div class="app-col">
+                    <article class="article">
+                        <figure class="article__img-wrapper">
+                            <img src="assets/images/news-2.jpeg" alt="Kilkenny Kickers FC Wins Regional Championship">
+                        </figure>
+                        <div class="article__inner">
+                            <h3 class="article__title">Kilkenny Kickers FC Wins Regional Championship</h3>
+                            <p class="article__desc">Kilkenny Kickers Football Club celebrated a historic victory
+                                by clinching the Regional Championship title in a thrilling final match. The team's
+                                exceptional
+                                performance throughout the tournament showcased their dedication and skill on the field.
+                                Fans
+                                and club members are rejoicing in this well-deserved triumph, and hopes are high as they
+                                prepare
+                                for upcoming national competitions.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="app-col">
+                    <article class="article">
+                        <figure class="article__img-wrapper">
+                            <img src="assets/images/news-3.jpeg"
+                                 alt="Kilkenny Kickers FC Launches Community Outreach Program">
+                        </figure>
+                        <div class="article__inner">
+                            <h3 class="article__title">Kilkenny Kickers FC Launches Community Outreach Program</h3>
+                            <p class="article__desc">In an effort to strengthen their ties with the local community,
+                                Kilkenny
+                                Kickers Football Club has unveiled a new Community Outreach Program. This initiative
+                                includes
+                                various projects aimed at giving back to the community, such as football clinics for
+                                underprivileged youth and partnerships with local schools. The club believes in using
+                                the
+                                power
+                                of football to promote unity and positive change within Kilkenny.</p>
+                        </div>
+                    </article>
+                </div>
             </div>
-            <div class="app-col">
-                <article class="person">
-                    <img src="assets/images/secretary.png" class="person__img" alt="James Murphy">
-                    <div class="person__inner">
-                        <h3 class="person__name">James Murphy</h3>
-                        <h5 class="person__position">Secretary</h5>
-                        <p class="person__bio">James Murphy serves as the Secretary of the Kilkenny Kickers Football
-                            Club.
-                            With a keen eye for detail and excellent organizational skills, he keeps the club's
-                            administrative
-                            matters running like clockwork. James has been a dedicated member of the club for years, and
-                            his
-                            transition into a leadership role was a natural progression.
-                            <br><br>
-                            In addition to his role as Secretary, James is a passionate football enthusiast. He's often
-                            seen
-                            on the sidelines, cheering on the teams and fostering a sense of camaraderie among the
-                            club's
-                            members. His commitment to the club's success, both on and off the pitch, is truly
-                            commendable.</p>
-                    </div>
-                </article>
-            </div>
-            <div class="app-col">
-                <article class="person">
-                    <img src="assets/images/treasurer.png" class="person__img" alt="James Murphy">
+        </div>
+    </section>
 
-                    <div class="person__inner">
-                        <h3 class="person__name">Emma Fitzgerald</h3>
-                        <h5 class="person__position">Treasurer</h5>
-                        <p class="person__bio">Emma Fitzgerald is the Treasurer of Kilkenny Kickers Football Club,
-                            responsible
-                            for managing the club's finances with precision and diligence. She brings a strong financial
-                            background to the role, having worked in finance for several years before joining the club's
-                            leadership team.
-                            <br><br>
-                            Emma's dedication to the club's financial stability ensures that resources are allocated
-                            efficiently, helping the club invest in better facilities, equipment, and coaching staff.
-                            Her
-                            meticulous financial planning has played a pivotal role in the club's ability to grow and
-                            provide opportunities for aspiring footballers in the Kilkenny community.</p>
-                    </div>
-                </article>
+    <section class="app-section about">
+        <div class="app-container">
+            <h2 class="section-title about__title">Club Management</h2>
+            <p class="about__desc">
+                These dedicated individuals, Sarah O'Donnell, James Murphy, and Emma Fitzgerald, work tirelessly behind
+                the
+                scenes to ensure the success and growth of Kilkenny Kickers Football Club, both on and off the pitch.
+            </p>
+
+            <div class="app-row about__row">
+                <div class="app-col">
+                    <article class="person">
+                        <figure class="person__img-wrapper">
+                            <img src="assets/images/chairperson.png" class="person__img" alt="Sarah O'Donnell">
+                        </figure>
+                        <div class="person__inner">
+                            <h3 class="person__name">Sarah O'Donnell</h3>
+                            <h5 class="person__position">Chairperson</h5>
+                            <p class="person__bio">Sarah O'Donnell is the driving force behind Kilkenny Kickers Football
+                                Club.
+                                With an unwavering passion for the beautiful game, she took on the role of Chairperson
+                                to
+                                lead
+                                the
+                                club to new heights. Sarah brings a wealth of experience to the table, having played
+                                football
+                                competitively for over a decade before transitioning to a leadership role.
+                                <br><br>
+                                Off the field, Sarah is a dedicated advocate for youth development in sports. She firmly
+                                believes that football is more than just a game; it's a tool for personal growth and
+                                community
+                                building. Under her guidance, the Kilkenny Kickers Football Club has become a place
+                                where
+                                aspiring
+                                players not only sharpen their skills but also learn valuable life lessons.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="app-col">
+                    <article class="person">
+                        <figure class="person__img-wrapper">
+                            <img src="assets/images/secretary.png" class="person__img" alt="James Murphy">
+                        </figure>
+                        <div class="person__inner">
+                            <h3 class="person__name">James Murphy</h3>
+                            <h5 class="person__position">Secretary</h5>
+                            <p class="person__bio">James Murphy serves as the Secretary of the Kilkenny Kickers Football
+                                Club.
+                                With a keen eye for detail and excellent organizational skills, he keeps the club's
+                                administrative
+                                matters running like clockwork. James has been a dedicated member of the club for years,
+                                and
+                                his
+                                transition into a leadership role was a natural progression.
+                                <br><br>
+                                In addition to his role as Secretary, James is a passionate football enthusiast. He's
+                                often
+                                seen
+                                on the sidelines, cheering on the teams and fostering a sense of camaraderie among the
+                                club's
+                                members. His commitment to the club's success, both on and off the pitch, is truly
+                                commendable.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="app-col">
+                    <article class="person">
+                        <figure class="person__img-wrapper">
+                            <img src="assets/images/treasurer.png" class="person__img" alt="James Murphy">
+                        </figure>
+                        <div class="person__inner">
+                            <h3 class="person__name">Emma Fitzgerald</h3>
+                            <h5 class="person__position">Treasurer</h5>
+                            <p class="person__bio">Emma Fitzgerald is the Treasurer of Kilkenny Kickers Football Club,
+                                responsible
+                                for managing the club's finances with precision and diligence. She brings a strong
+                                financial
+                                background to the role, having worked in finance for several years before joining the
+                                club's
+                                leadership team.
+                                <br><br>
+                                Emma's dedication to the club's financial stability ensures that resources are allocated
+                                efficiently, helping the club invest in better facilities, equipment, and coaching
+                                staff.
+                                Her
+                                meticulous financial planning has played a pivotal role in the club's ability to grow
+                                and
+                                provide opportunities for aspiring footballers in the Kilkenny community.</p>
+                        </div>
+                    </article>
+                </div>
             </div>
         </div>
     </section>
 </main>
 
 <footer class="app-footer">
-    <div class="app-footer__row">
-        <nav class="app-footer__col footer-nav">
-            <ul class="footer-nav__list">
-                <li class="footer-nav__list-item">
-                    <a href="index.html" class="footer-nav__link">Home</a>
-                </li>
-                <li class="footer-nav__list-item">
-                    <a href="about.html" class="footer-nav__link">About</a>
-                </li>
-            </ul>
-        </nav>
-        <nav class="app-footer__col social-nav">
+    <div class="app-container">
+        <nav class="social-nav">
+            <p class="social-nav__desc">Follow us on</p>
             <ul class="social-nav__list">
                 <li class="social-nav__list-item">
                     <a href="https://github.com/player64/kilkenny-kickers"
