@@ -11,7 +11,7 @@ built using pure HTML and CSS, with hosting provided by Firebase.
 - The website is developed and tested for desktop use only, optimized for screens with a minimum width of 1200 pixels
   for the best viewing experience.
 - The website is built using pure HTML and CSS for a clean design.
-- Firebase is utilized to host the website, ensuring fast and reliable access for visitors.
+- [Firebase](https://kilkenny-kickers.web.app/) is utilized to host the website, ensuring fast and reliable access for visitors. 
 
 ## Disclaimer:
 
