@@ -1,18 +1,17 @@
-# Kilkenny Kickers Football Club
+# [Kilkenny Kickers Football Club](https://kilkenny-kickers.web.app/)
 
 ## Overview:
 
-Welcome to the Kilkenny Kicker Football Club website – your gateway to the world of our beloved fictional football team,
-the Kilkenny Kicker! **This project is a fictional** endeavor created for educational purposes, showcasing a website
-built using pure HTML and CSS, with hosting provided by Firebase.
+Welcome to the Kilkenny Kicker Football Club website – your gateway to the world of our beloved
+fictional football team, the Kilkenny Kicker! **This project is a fictional** endeavour created for educational purposes, showcasing a website built using static HTML and
+pure CSS, with hosting provided by Firebase.
 
 ## Technical Details:
 
 - The website is developed and tested for desktop use only, optimized for screens with a minimum width of 1200 pixels
   for the best viewing experience.
-- The website is built using static HTML and CSS for a clean design.
-- [Firebase](https://kilkenny-kickers.web.app/) is utilized to host the website, ensuring fast and reliable access for visitors. 
-
+- The website is built using static HTML and CSS for a clean design. 
+- Firebase hosts the website, ensuring fast and reliable access for visitors.
 ## Disclaimer:
 
 **This project is entirely fictional** and is not affiliated with any real football club. It is created solely for
