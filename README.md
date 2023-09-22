@@ -2,8 +2,8 @@
 
 ## Overview:
 
-Welcome to the Kilkenny Kicker Football Club website – your gateway to the world of our beloved
-fictional football team, the Kilkenny Kicker! **This project is a fictional** endeavour created for educational purposes, showcasing a website built using static HTML and
+Welcome to the Kilkenny Kickers Football Club website – your gateway to the world of our beloved
+fictional football team, the Kilkenny Kickers! **This project is a fictional** endeavour created for educational purposes, showcasing a website built using static HTML and
 pure CSS, with hosting provided by Firebase.
 
 ## Technical Details:
